@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crobatma88/han-river2/static/css/main.4bc11d74.chunk.css",
+    "main.js": "/crobatma88/han-river2/static/js/main.d233b657.chunk.js",
+    "main.js.map": "/crobatma88/han-river2/static/js/main.d233b657.chunk.js.map",
+    "runtime-main.js": "/crobatma88/han-river2/static/js/runtime-main.2d625731.js",
+    "runtime-main.js.map": "/crobatma88/han-river2/static/js/runtime-main.2d625731.js.map",
+    "static/js/2.5cecd114.chunk.js": "/crobatma88/han-river2/static/js/2.5cecd114.chunk.js",
+    "static/js/2.5cecd114.chunk.js.map": "/crobatma88/han-river2/static/js/2.5cecd114.chunk.js.map",
+    "static/js/3.56d3c7c8.chunk.js": "/crobatma88/han-river2/static/js/3.56d3c7c8.chunk.js",
+    "static/js/3.56d3c7c8.chunk.js.map": "/crobatma88/han-river2/static/js/3.56d3c7c8.chunk.js.map",
+    "index.html": "/crobatma88/han-river2/index.html",
+    "static/css/main.4bc11d74.chunk.css.map": "/crobatma88/han-river2/static/css/main.4bc11d74.chunk.css.map",
+    "static/js/2.5cecd114.chunk.js.LICENSE.txt": "/crobatma88/han-river2/static/js/2.5cecd114.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d625731.js",
+    "static/js/2.5cecd114.chunk.js",
+    "static/css/main.4bc11d74.chunk.css",
+    "static/js/main.d233b657.chunk.js"
+  ]
+}
