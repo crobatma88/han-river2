@@ -36,7 +36,7 @@ class Home extends React.Component {
         
         {/* <button class="start_button" onClick={this.handleClick}>테스트 시작하기</button> */}
         </div>
-        <div className="info">본 사이트는 서울 데이터 광장의 Open Api로 만들어졌습니다. Made by 빵빵아빠</div>
+        <div className="info">본 사이트는 서울 데이터 광장의 Open Api로 만들어졌습니다. Made by 한강 - 건강한조깅</div>
       </div>
     );
   }
