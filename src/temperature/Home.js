@@ -9,7 +9,11 @@ class Home extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
 
-
+    axios.get('https://api.hangang.msub.kr/').
+    then((response) => {
+      console.log(response.data);
+      this.setState({ temperatrue: response.data.temp });
+    });
   }
 
   handleClick(e) {
@@ -18,11 +22,8 @@ class Home extends React.Component {
 
   render() {
 
-    axios.get('http://openapi.seoul.go.kr:8088/697363766963726f37326843487269/json/WPOSInformationTime/1/5/').
-    then((response) => {
-      console.log(response.data);
-      this.setState({ temperatrue: response.data.WPOSInformationTime.row[0].W_TEMP });
-    });
+    // axios.get('https://openapi.seoul.go.kr:8088/697363766963726f37326843487269/json/WPOSInformationTime/1/5/').
+
     
     return (
       <div className="Home">
