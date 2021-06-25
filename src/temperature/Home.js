@@ -9,10 +9,10 @@ class Home extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
 
-    axios.get('https://api.hangang.msub.kr/').
+    axios.get('https://myfirst23421124.herokuapp.com/').
     then((response) => {
       console.log(response.data);
-      this.setState({ temperatrue: response.data.temp });
+      this.setState({ temperatrue: response.data.WPOSInformationTime.row[0].W_TEMP });
     });
   }
 
